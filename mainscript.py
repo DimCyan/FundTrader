@@ -47,7 +47,7 @@ fund_code = [
     '501047',
     '163402']  # 基金代码
 
-while True:
+while 1:
     for code in fund_code:
         url = f'http://fundgz.1234567.com.cn/js/{code}.js?rt=1463558676006'
         r = requests.get(url=url)

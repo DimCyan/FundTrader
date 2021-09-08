@@ -3,6 +3,7 @@ import ast
 from colorama import init, Fore, Back, Style
 from prettytable import PrettyTable as pt, ORGMODE, MARKDOWN, MSWORD_FRIENDLY, PLAIN_COLUMNS, DEFAULT, RANDOM
 import msvcrt as m
+import json
 
 
 init(autoreset=False)

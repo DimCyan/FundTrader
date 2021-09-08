@@ -10,8 +10,8 @@
 
 ## Screenshots
 
-![Run interface](https://github.dev/SimonWDC/FundTrader/blob/29a1299967c7107e3358f75b0e5fb8cc9d1e0163/img/2.jpg)
-![Installation dependencies](https://github.dev/SimonWDC/FundTrader/blob/29a1299967c7107e3358f75b0e5fb8cc9d1e0163/img/1.jpg)
+![Run interface](https://github.com/SimonWDC/FundTrader/blob/main/img/2.jpg)
+![Installation dependencies](https://github.com/SimonWDC/FundTrader/blob/main/img/1.jpg)
 
 ---
 

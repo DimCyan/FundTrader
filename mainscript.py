@@ -29,25 +29,11 @@ table.padding_width = 1
 # 样式选择可选：ORGMODE, MARKDOWN, MSWORD_FRIENDLY, PLAIN_COLUMNS, DEFAULT, RANDOM
 table.set_style(MARKDOWN)
 
-fund_code = [
-    '005827',
-    '161725',
-    '519674',
-    '110011',
-    '161005',
-    '163406',
-    '003095',
-    '519116',
-    '001156',
-    '001630',
-    '001986',
-    '005354',
-    '001838',
-    '008087',
-    '501047',
-    '163402']  # 基金代码
+with open('fund.json', 'r', encoding='utf-8') as f:
+    fund_data = json.load(f)
+    fund_code = fund_data.get('fund_code')  # 基金代码
 
-while 1:
+while True:
     for code in fund_code:
         url = f'http://fundgz.1234567.com.cn/js/{code}.js?rt=1463558676006'
         r = requests.get(url=url)
